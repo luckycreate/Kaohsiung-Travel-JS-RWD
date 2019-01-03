@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+
+/*Bootstrap 4.0 網站預設字體*/
+    font-family:-apple-system,BlinkMacSystemFont,"Microsoft JhengHei","Segoe UI","Roboto","Helvetica Neue", Arial, sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+#body-style{
+    background-image: url("../picture/escheresque_ste.png");
+    background-attachment: fixed;
+}
+
+.header{
+    background-image: url("../picture/Hero.png");
+    
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+
+.title{
+    color: aliceblue;
+    font-size: 40px;
+    letter-spacing:4px;
+}
+
+.rowbox{
+    height: 380px;
+    
+}
+
+.box1{
+    text-align: center;
+}
+
+
+.selectBox{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.selectStyle{
+    padding: 5px 40px 5px 40px;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.61);
+    border: 2px solid rgb(240, 240, 240);
+    font-weight: bold;
+    outline:none;
+}
+
+option{
+    background-color: rgba(240, 248, 255, 0.61);
+}
+
+
+
+.btnBox{
+    height: 112px;
+    background-color: rgb(250, 237, 219);
+    margin-top: -30px;
+    border-radius: 10px;
+}
+
+@media(max-width:990px){
+    .btnBox{
+        height: 180px;
+    }
+}
+
+.title2{
+    font-size: 16px;
+    letter-spacing:1px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.selectBtn{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.btnStyle{
+    width: 200px;
+    height: 45px;
+    padding: 10px 35px 10px 35px;
+    border-radius: 5px;
+    outline:none;
+}
+
+.btnStyle:hover{
+    border: 2px solid rgb(100, 100, 100);
+}
+
+.btnStyle:active{
+    color: rgb(54, 54, 54);
+    border: 3px solid rgb(100, 100, 100);
+}
+
+.btn-bgc-purple{
+    background-color: #8A82CC;
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+    border-style: none;
+    outline:none;
+    font-size: 18px;
+}
+
+.btn-bgc-pink{
+    background-color: #FFA782;
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+    border-style: none;
+    outline:none;
+    font-size: 18px;
+}
+
+.btn-bgc-yellow{
+    background-color: #F5D005;
+    color: rgb(43, 43, 43); 
+    font-weight: bold;
+    border-style: none;
+    outline:none;
+    font-size: 18px;
+}
+
+.btn-bgc-blue{
+    background-color: #559AC8;
+    color: rgb(43, 43, 43); 
+    font-weight: bold;
+    border-style: none;
+    outline:none;
+    font-size: 18px;
+}
+
+.TR-style{
+    border-top-style: dashed;
+    border-top-color: rgb(127, 197, 255);
+    margin-top: 40px;
+    
+}
+
+.TR-img-box{
+    position: relative;
+}
+
+.TR-img-radius{
+    height: 24px;
+    width: 24px;
+    border: 1.5px solid rgb(127, 197, 255);
+    border-radius: 50%;
+    background-color: #313131;
+    margin-top: -13px;
+    position: absolute;
+    right: 44%;
+    text-align: center;
+    
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8.7px 5px 0 5px;
+    border-color: #7fc5ff transparent transparent transparent;
+    margin-top: 7px;
+    margin-left: 5.5px;
+}
+
+.title3{
+    text-align: center;
+    margin-top: 46px;
+    color: #8A82CC;
+    font-size: 38px;
+}
+
+.Attractions-block{
+    height: 150px;
+    position: relative;
+    
+}
+
+.Attractions-img{
+    height: 150px;
+    width: 100%;
+    -webkit-filter:brightness(70%);
+}
+
+.Attractions-title{
+    position: absolute;
+    left: 10px;
+    bottom:3px;
+    color: white;
+}
+
+.Attractions-area{
+    position: absolute;
+    right: 10px;
+    bottom:3px;
+    color: white;
+}
+
+.Attractions-content{
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    background-color: rgb(255, 215, 163);
+    padding-top: 6px;
+    position: relative;
+}
+
+.img-clock{
+    
+    margin-right: 6px;
+}
+
+.img-pin{
+    
+    margin-right: 8px;
+}
+
+.img-phone{
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.img-free{
+    margin-right: 6px;
+}
+
+
+.Attractions-text{
+    margin-top: 7px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.Attractions-free{
+    margin-top: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    right: 12px;
+    bottom: 10px;
+}
+
+.main{
+    min-height:450px;
+}
+
+.footer{
+    height: 90px;
+    background-color: #7fc5ff;
+}
+
+.footerTitle{
+    text-align: center;
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+}
+
+
+.Data-source{
+    text-align: center;
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+}

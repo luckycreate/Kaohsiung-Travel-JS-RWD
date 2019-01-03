@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>高雄旅遊資訊網</title>
+<link rel="stylesheet" type="text/css" href="CSS/myCSS.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="JS/jquery-3.3.1.min.js"></script>
+<script src="JS/jquery-1.js"></script>
+</head>
+
+<body id="body-style">
+<div class="container header">
+    <div class="row justify-content-center rowbox align-items-center">
+        <div class="col-10 box1">
+            <div class="title">高雄旅遊資訊</div>
+        </div>
+        <div class="col-10 selectBox">
+            <select class="selectStyle" id="selectArea">
+                <option value="請選擇行政區">--請選擇行政區--</option>
+                <option value="苓雅區">📷 苓雅區</option>
+                <option value="三民區">📷 三民區</option>
+                <option value="新興區">📷 新興區</option>
+                <option value="前鎮區">📷 前鎮區</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-11 btnBox">
+            <div class="title2">🔥 熱門行政區</div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6 col-6 selectBtn">
+                    <button class="btnStyle btn-bgc-purple" id="area1" value="苓雅區">🏠 苓雅區</button>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6 selectBtn">
+                    <button class="btnStyle btn-bgc-pink" id="area2" value="三民區">🏠 三民區</button>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6 selectBtn">
+                    <button class="btnStyle btn-bgc-yellow" id="area3" value="新興區">🏠 新興區</button>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6 selectBtn">
+                    <button class="btnStyle btn-bgc-blue" id="area4" value="前鎮區">🏠 前鎮區</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-11 TR-style"></div>
+
+        <div class="col-3 TR-img-box">
+            
+            <div class="TR-img-radius">
+                    <div class="triangle"></div>    
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" id="areaTitle">
+        <div class="col-8 title3">請選擇行政區</div>
+    </div>
+
+    <div class="row justify-content-center main" id="showList">
+            
+        
+        
+                  
+    </div>
+
+    <div class="row justify-content-center footer mt-5">
+            <div class="col-10 footerTitle mt-3">🦔 高雄旅遊網</div>
+            <div class="col-10 Data-source">🏢 資料來源 : 高雄市政府</div>
+    </div>
+
+</div>
+
+  
+<!--這邊不要超過-->
+<script src="JS/Travel.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
