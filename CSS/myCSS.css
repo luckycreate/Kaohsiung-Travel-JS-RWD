@@ -52,12 +52,6 @@ body{
     outline:none;
 }
 
-option{
-    background-color: rgba(240, 248, 255, 0.61);
-}
-
-
-
 .btnBox{
     height: 112px;
     background-color: rgb(250, 237, 219);
